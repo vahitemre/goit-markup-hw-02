@@ -1,10 +1,26 @@
+header > a {
+    font-weight: bold;
+    font-family: "raleway", sans-serif;
+    color: #434455;
+    font-size: 21px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+}
+
 body{
     font-family: "roboto", sans-serif;
     color: #434455;
     font-weight: normal;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+nav{
+        font-family: "roboto", sans-serif;
+        color: #2E2F42;
+        font-weight: 500;
+
 }
 
 footer {
@@ -12,11 +28,19 @@ footer {
 }
 
 .web {
+
     color: #4D5AE5;
 }
 
-footer > p, footer>a {
+footer p {
     color: #ffffff;
+    font-weight: normal;
+}
+
+footer a {
+    color: #ffffff;
+    font-family: "raleway", sans-serif;
+    
 }
 
 .heroimage {
@@ -34,7 +58,7 @@ h1{
     color: #ffffff;
     font-weight: bold;
     font-size: 56px;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     line-height: 1.07;
     text-align: center;
 }
@@ -43,7 +67,7 @@ h2 {
     color: #2E2F42;
     font-weight: bold;
     font-size: 36px;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -51,11 +75,11 @@ h3{
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 button {
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     text-align: center;
     color: #ffffff;
     background-color: #4D5AE5;
@@ -76,8 +100,6 @@ a:focus{
 
 ul{
     list-style-type: none;
-    display: flex;
-    gap: 10px;
 }
 
 button:hover,
