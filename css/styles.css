@@ -21,8 +21,13 @@ footer > p, footer>a {
 
 .heroimage {
     background-color: #2E2F42;
-    height: 600px;
+    
     text-align: center;
+}
+
+.section-2 {
+    background-color: #F4F4FD;
+    
 }
 
 h1{
@@ -30,7 +35,7 @@ h1{
     font-weight: bold;
     font-size: 56px;
     letter-spacing: 0.02;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
 }
 
@@ -39,6 +44,7 @@ h2 {
     font-weight: bold;
     font-size: 36px;
     letter-spacing: 0.02;
+    text-align: center;
 }
 
 h3{
@@ -55,6 +61,7 @@ button {
     background-color: #4D5AE5;
     width: 169px;
     height: 56px;
+    cursor: pointer;
 }
 a {
     text-decoration: none;
@@ -69,6 +76,8 @@ a:focus{
 
 ul{
     list-style-type: none;
+    display: flex;
+    gap: 10px;
 }
 
 button:hover,
